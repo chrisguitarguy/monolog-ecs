@@ -1,0 +1,26 @@
+{
+    "name": "chrisguitarguy/monolog-ecs",
+    "description": "AWS ECS metadata in your log messages",
+    "keywords": ["monolog", "aws", "ecs"],
+    "license": "MIT",
+    "require": {
+        "php": "~7.1"
+    },
+    "require-dev": {
+        "monolog/monolog": "~1.0",
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chrisguitarguy\\MonologEcs\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chrisguitarguy\\MonologEcs\\" : [
+                "test/unit/",
+                "test/acceptance/"
+            ]
+        }
+    }
+}
