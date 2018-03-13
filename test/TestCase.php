@@ -11,6 +11,6 @@
 
 namespace Chrisguitarguy\MonologEcs;
 
-abstract class UnitTestCase extends \PHPUnit\Framework\TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
 }

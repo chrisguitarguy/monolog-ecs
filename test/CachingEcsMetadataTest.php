@@ -11,7 +11,7 @@
 
 namespace Chrisguitarguy\MonologEcs;
 
-final class CachingEcsMetadataTest extends UnitTestCase
+final class CachingEcsMetadataTest extends TestCase
 {
     private $wrapped, $ecs;
 

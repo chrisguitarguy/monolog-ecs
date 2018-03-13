@@ -12,8 +12,8 @@
          bootstrap="vendor/autoload.php">
 
     <testsuites>
-        <testsuite name="unit">
-            <directory>./test/unit</directory>
+        <testsuite name="main">
+            <directory>./test</directory>
         </testsuite>
     </testsuites>
 

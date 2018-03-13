@@ -17,10 +17,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Chrisguitarguy\\MonologEcs\\" : [
-                "test/unit/",
-                "test/acceptance/"
-            ]
+            "Chrisguitarguy\\MonologEcs\\": "test/"
         }
     }
 }

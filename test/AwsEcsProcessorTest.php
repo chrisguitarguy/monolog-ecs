@@ -11,7 +11,7 @@
 
 namespace Chrisguitarguy\MonologEcs;
 
-final class AwsEcsProcessorTest extends UnitTestCase
+final class AwsEcsProcessorTest extends TestCase
 {
     private $ecs, $processor;
 

@@ -11,7 +11,7 @@
 
 namespace Chrisguitarguy\MonologEcs;
 
-final class FileEcsMetadataTest extends UnitTestCase
+final class FileEcsMetadataTest extends TestCase
 {
     const ENVVAR = 'CGG_FILE_ECS_METADATA_TEST';
 
