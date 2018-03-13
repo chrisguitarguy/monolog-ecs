@@ -31,7 +31,7 @@ final class AwsEcsProcessor
 
     public static function create() : self
     {
-        return new self(new FileEcsMetadata());
+        return new self(new CachingEcsMetadata(new FileEcsMetadata()));
     }
 
     public function __invoke(array $record) : array
