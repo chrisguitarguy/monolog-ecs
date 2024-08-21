@@ -52,12 +52,12 @@ final class FileEcsMetadataTest extends TestCase
         ], $result);
     }
 
-    protected function assertPreConditions()
+    protected function assertPreConditions(): void
     {
         $this->assertFalse(getenv(self::ENVVAR));
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->ecs = new FileEcsMetadata(self::ENVVAR);
         // start each test with the environment variable unset

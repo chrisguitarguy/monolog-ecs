@@ -68,7 +68,7 @@ final class CachingEcsMetadataTest extends TestCase
         ], $result);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->wrapped = $this->createMock(EcsMetadata::class);
         $this->ecs = new CachingEcsMetadata($this->wrapped);

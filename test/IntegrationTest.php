@@ -31,7 +31,7 @@ final class IntegrationTest extends TestCase
         }, Logger::INFO));
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->handler = new TestHandler(Logger::DEBUG);
         $this->handler->setFormatter(new LineFormatter(

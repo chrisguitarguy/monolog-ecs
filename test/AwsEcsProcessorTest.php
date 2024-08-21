@@ -64,7 +64,7 @@ final class AwsEcsProcessorTest extends TestCase
         ], $record['extra']);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->ecs = $this->createMock(EcsMetadata::class);
         $this->processor = new AwsEcsProcessor($this->ecs);
